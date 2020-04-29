@@ -27,6 +27,7 @@
 		C032160C245A34C20007FD73 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032160B245A34C20007FD73 /* NetworkError.swift */; };
 		C032160E245A35B20007FD73 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032160D245A35B20007FD73 /* Encoder.swift */; };
 		C0321610245A36260007FD73 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C032160F245A36260007FD73 /* Response.swift */; };
+		C0321614245A4B700007FD73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0321613245A4B700007FD73 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,7 @@
 		C032160B245A34C20007FD73 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		C032160D245A35B20007FD73 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
 		C032160F245A36260007FD73 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C0321613245A4B700007FD73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				ABAB4F0D241A172E001E85CA /* Main.storyboard */,
 				ABAB4F12241A1732001E85CA /* LaunchScreen.storyboard */,
 				ABAB4F15241A1732001E85CA /* Info.plist */,
+				C0321613245A4B700007FD73 /* Constants.swift */,
 			);
 			path = Moviefy;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				C032160A245A343D0007FD73 /* Request.swift in Sources */,
 				C032160E245A35B20007FD73 /* Encoder.swift in Sources */,
 				AB9F57FE243D57FF006612A3 /* MovieSection.swift in Sources */,
+				C0321614245A4B700007FD73 /* Constants.swift in Sources */,
 				C032160C245A34C20007FD73 /* NetworkError.swift in Sources */,
 				C0321608245A34140007FD73 /* APIClient.swift in Sources */,
 			);
