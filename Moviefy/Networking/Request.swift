@@ -16,6 +16,7 @@ public enum HTTPMethod: String{
     case delete = "DELETE"
 }
 
+
 public enum Route: String{
     case movies = "discover/movie"
 }
@@ -24,8 +25,10 @@ struct Request {
     static let headers = [
         "Accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "Bearer YOUR_API_KEY"
+        "Authorization": "Bearer \(apikey)"
     ]
+    
+    public static let baseImageURL = URL(string: "https://image.tmdb.org/t/p/w500")!
     
     static func configureRequest(from route: Route, with parameters: [String: Any], and method: HTTPMethod, contains body: Data?) throws -> URLRequest {
 
