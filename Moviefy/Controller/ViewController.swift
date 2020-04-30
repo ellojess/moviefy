@@ -60,14 +60,14 @@ class ViewController: UIViewController {
     }
     
     func fetchUpcoming() {
-        APIClient.shared.getPopularMovies { (result) in
+        APIClient.shared.getUpcomingMovies { (result) in
             switch result{
-            case let .success(movies):
+            case let .success(upcoming):
                 DispatchQueue.main.async {
-                    self.movies = movies
+                    self.movies = upcoming
                     var basicSection = MovieSection()
-                    basicSection.numberOfItems = movies.count
-                    basicSection.items = movies
+                    basicSection.numberOfItems = upcoming.count
+                    basicSection.items = upcoming
                     self.sections.append(TitleSection(title: "Upcoming Movies"))
                     self.sections.append(basicSection)
                     self.setupCollectionView()
