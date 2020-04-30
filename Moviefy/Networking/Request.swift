@@ -19,6 +19,7 @@ public enum HTTPMethod: String{
 
 public enum Route: String{
     case movies = "discover/movie"
+    case upcoming = "movie/upcoming"
 }
 
 struct Request {
